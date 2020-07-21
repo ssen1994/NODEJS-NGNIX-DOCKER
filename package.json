@@ -1,0 +1,18 @@
+{
+  "name": "nodejs_test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon nodejs_test.js"
+  },
+  "description": "NodeJS Tutorial Server",
+  "author": {
+    "name": "jeongSikKim"
+  },
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.16.3",
+    "nodemon": "^2.0.4",
+    "uuid": "^3.2.1"
+  }
+}
