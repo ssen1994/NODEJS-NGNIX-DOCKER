@@ -1,4 +1,5 @@
--- DOCKER
+DOCKER
+======
 
 1. Dockerfile 만들기(첫자는 무조건 대문자)
 2. Dockerfile을 통한 docker image 빌드하기
@@ -50,4 +51,3 @@ docker start NODE_SERVER_3
       (3) /usr/local/etc/nginx
 
       중 ngnix.conf 를 찾아 설정 (맥은 3번)
-      
