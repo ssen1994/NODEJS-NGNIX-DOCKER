@@ -33,7 +33,8 @@ docker start NODE_SERVER_1 <br>
 docker start NODE_SERVER_2 <br>
 docker start NODE_SERVER_3
 
-
+<br>
+<br>
 
 NGNIX
 ===== 
