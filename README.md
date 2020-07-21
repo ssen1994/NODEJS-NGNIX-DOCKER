@@ -17,26 +17,26 @@ DOCKER
     - docker start [서버명]
     예) docker start NODE_SERVER_0
 
-※ 버전 태그 업그레이드 해서 파일 변경하고 다시 확인하는 과정(기존 파일은 제거)
-docker build --tag node_server:0.0.2 [Dockerfile위치]
-docker images
-docker rm -f NODE_SERVER_0
-docker ps -a
+* 버전 태그 업그레이드 해서 파일 변경하고 다시 확인하는 과정(기존 파일은 제거) <br>
+docker build --tag node_server:0.0.2 [Dockerfile위치] <br>
+docker images <br>
+docker rm -f NODE_SERVER_0 <br>
+docker ps -a <br>
 
-※ Docker로 여러 개의 서버 띄우기(컨테이너 생성)
-docker create --name NODE_SERVER_1 -p 3001:3000 node_server:0.0.1
-docker create --name NODE_SERVER_2 -p 3002:3000 node_server:0.0.1
-docker create --name NODE_SERVER_3 -p 3003:3000 node_server:0.0.1
+* Docker로 여러 개의 서버 띄우기(컨테이너 생성) <br>
+docker create --name NODE_SERVER_1 -p 3001:3000 node_server:0.0.1 <br>
+docker create --name NODE_SERVER_2 -p 3002:3000 node_server:0.0.1 <br>
+docker create --name NODE_SERVER_3 -p 3003:3000 node_server:0.0.1 <br>
 
-※ Docker로 여러 개의 서버 실행
-docker start NODE_SERVER_1
-docker start NODE_SERVER_2
+* Docker로 여러 개의 서버 실행 <br>
+docker start NODE_SERVER_1 <br>
+docker start NODE_SERVER_2 <br>
 docker start NODE_SERVER_3
 
 
 
-
--- NGNIX 
+NGNIX
+===== 
 
 1. 설치
     - 윈도우는 별도 설치
